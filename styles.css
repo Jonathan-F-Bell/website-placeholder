@@ -1,3 +1,25 @@
 html {
   font-family: 'Quicksand', sans-serif;
 }
+
+body{ margin:0px 0px; }
+
+#hero{
+  background-image:url(DSC_0067.jpg);
+  background-size:cover;
+  position:relative;
+  height:100vh;
+}
+
+.header{
+  position:absolute;
+  top:50%;
+  text-align:center;
+  width:100%;
+  color:#fff;
+  font-size:36px;
+  -ms-transform: translate(0,-50%); /* IE 9 */
+    -webkit-transform: translate(0,-50%); /* Safari */
+    transform: translate(0,-50%);
+
+}
